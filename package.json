@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:build": "docker build -t nextjs-app .",
+    "docker:run": "docker run -p 3000:3000 nextjs-app",
+    "docker:clean": "docker system prune -f"
   },
   "dependencies": {
     "next": "15.1.4",
