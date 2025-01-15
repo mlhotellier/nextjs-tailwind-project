@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div className="flex m-auto">
           <Image
-            className="rounded-full"
+            className="rounded-full transition-transform duration-500 ease-in-out hover:rotate-[360deg]"
             src="/avatar.jpg"
             alt="mathis lhotellier avatar"
             width={180}
@@ -16,15 +16,15 @@ export default function Home() {
         </div>
         <code className="text-xl">@mlhotellier | <span className="font-bold">Fullstack developer</span></code>
         <div className="flex flex-col sm:flex-row text-white">
-          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-cyan-400">ReactJS</span>
-          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-purple-400">Tailwind CSS</span>
-          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-red-300">NodeJS</span>
-          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-green-300">MongoDB</span>
+          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-cyan-400 scale-100 hover:scale-105 translate-y-0 hover:-translate-y-1 transition-all ease-in-out">NextJS</span>
+          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-purple-400 scale-100 hover:scale-105 translate-y-0 hover:-translate-y-1 transition-all ease-in-out">TailwindCSS</span>
+          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-red-300 scale-100 hover:scale-105 translate-y-0 hover:-translate-y-1 transition-all ease-in-out">NodeJS</span>
+          <span className="m-1 font-bold px-3 py-1 rounded-lg bg-green-300 scale-100 hover:scale-105 translate-y-0 hover:-translate-y-1 transition-all ease-in-out">MongoDB</span>
         </div>
         <div className="flex m-auto">
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://www.linkedin.com/in/mathis-l-hôtellier/"
+            href="https://www.linkedin.com/in/mathis-l-h%C3%B4tellier/"
             target="_blank"
             rel="noopener noreferrer"
           >
